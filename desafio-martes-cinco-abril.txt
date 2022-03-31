@@ -1,0 +1,3 @@
+CAMBIOS:
+-grid a seccion peliculas
+-grid a seccion musica incluyendo precio debajo de las imagenes colocando dos clases juntas en <img>
