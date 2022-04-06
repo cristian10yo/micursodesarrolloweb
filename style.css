@@ -11,8 +11,24 @@ body{background-color:white;}
 @font-face {
     font-family: letradelbody;
     src: url(/Work_Sans/WorkSans-VariableFont_wght.ttf);}
+                /*GRIDS INDEX*/
+.contenedorgridindex{display: grid;grid-template-areas:
+        "headerindex headerindex headerindex headerindex"
+        "tituloindex tituloindex tituloindex tituloindex"
+        "textoindex textoindex textoindex asideindex"
+        "novedades novedades novedades asideindex"
+        "masvendidos masvendidos masvendidos asideindex"
+        "footerindex footerindex footerindex footerindex";}
 
-        /*SECCION-UNO-BODY*/
+.headerindex{grid-area: headerindex;}
+.tituloindex{grid-area: tituloindex}
+.textoindex{grid-area: textoindex}
+.novedades{grid-area: novedades}
+.asideindex{grid-area: asideindex}
+.masvendidos{grid-area: masvendidos}
+.footerindex{grid-area: footerindex}
+
+                /*SECCION-UNO-BODY*/
 h1{font-size: 5em; background-image:url("/imagenes/portada-asimov.jpg"); background-attachment:fixed;background-repeat: round;color:aqua; padding: 7%;}
 .textoindex{font-size: 2em ; font-style: italic; font-family:letradelbody ; color:black;}
 
