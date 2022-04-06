@@ -1,5 +1,5 @@
 *{margin: 0;padding: 0;}
-                /*ESTILOS INDEX*/
+                                         /*ESTILOS INDEX*/
 
         /*HEADER*/
 header nav ul li{display: inline;}
@@ -32,76 +32,103 @@ h1{font-size: 5em; background-image:url("/imagenes/portada-asimov.jpg"); backgro
 
 
 
-                 /* ESTILOS SECCION LIBROS*/
-.caminantesl{width: 20%;} 
-.yorobotl{width: 20%;}
-.unmundol{width: 20%;}
-.georgel{width: 20%;}
-.harryl{width: 20%;}
-.dunal{width: 20%;}
+                                         /* ESTILOS SECCION LIBROS*/
+.caminantesl{width: 18em;} 
+.yorobotl{width: 18em;}
+.unmundol{width: 18em;}
+.georgel{width: 18em;}
+.harryl{width: 18em;}
+.dunal{width: 18em;}
 
-        /*FLEX-TEXTO-DE-IMAGENES*/
-.parribaflex{display: flex;flex-direction: row; flex-wrap: wrap; justify-content: space-around;color: yellowgreen;text-decoration: none;font-size: 2em}
-.pabajoflex{display: flex;flex-direction: row; flex-wrap: wrap; justify-content: space-around;color: yellowgreen;text-decoration: none;font-size: 2em}
-        /*FLEX-IMAGENES*/
-.flexarriba { margin-bottom: 0.5em; display: flex;flex-direction: row; flex-wrap: wrap; justify-content: space-around;}
-.flexabajo {margin-top: 3em; display: flex;flex-direction: row; flex-wrap: wrap;justify-content: space-around;}
 
-                /*ESTILOS SECCION MUSICA*/
-.bastillem{width: 20%;}
-.nanom{width: 20%;}
-.nicom{width: 20%;}
-.parachutesm{width: 20%;}
-.thepeggiesm{width: 20%;}
-.imaginem{width: 20%;}
 
-.musicap{color: yellowgreen;text-decoration: none;font-size: 2em ;padding-left: 4em;}
+
+/*grid libros*/
+.gridpadrelibros{display: grid;grid-template-areas: 
+"nav nav nav nav"
+"titulo titulo titulo titulo"
+"sa sa sa asidee"
+"sb sb sb asidee"
+"fter fter fter fter";}
+
+.headerlibros{grid-area: nav;}
+.titulolibros{grid-area:titulo;}
+.sa{grid-area: sa;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr ;}
+.sb{grid-area: sb;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr;}
+.asidee{grid-area: asidee;}
+.fter{grid-area:fter}
+
+                                            /*ESTILOS SECCION MUSICA*/
+/*estilos imagenes*/                                          
+.bastillem{width: 18em;margin-top: 4em;}
+.nanom{width: 18em;margin-top: 4em;}
+.nicom{width: 18em;margin-top: 4em;}
+.parachutesm{width: 18em;margin-top: 4em;}
+.thepeggiesm{width: 18em;margin-top: 4em;}
+.imaginem{width: 18em;margin-top: 4em;}
+
+/*estilos info de imagenes seccion a*/
+@font-face {
+        font-family: robotomusica;
+        src: url(/Roboto/Roboto-Black.ttf);}
+
+.tituloalbum{font-family:robotomusica; font-weight: bolder;}
+.cantante{font-family:robotomusica;font-weight: bold; color: gray;}
+.precioalbum{font-family:robotomusica;color: red;}
+
+
+/*estilos info de imagenes seccion b*/
+
+
 /*grids*/
-.contenedorpadremusica{display: grid;grid-template-areas:
-        "heamus titum titum titum"
-        "heamus divam divam asidem"
-        "heamus "
-        "heamus divbm divbm asidem"
+.contenedorpadremusica{display:grid; grid-template-areas:
+        "headmus headmus headmus headmus"
+        "timusica timusica timusica aside"
+        "diva diva diva aside"
+        "divb divb divb aside"
         "foota foota foota foota";}
 
-.headmus{grid-area: heamus;}
-.timusica{grid-area:titum}
-.div-a{grid-area:divam;display: flex;flex-wrap: wrap; flex-direction: row;margin-bottom: 5em;}
-.div-b{grid-area: divbm;display: flex;flex-wrap: wrap; flex-direction: row;}
-.asidemu{grid-area: asidem;}
-.redesclase{grid-area: foota;}
-.musicap-a {}
-                /*ESTILOS SECCION PELICULAS*/
+.headmus{grid-area: headmus;display: flex; justify-content:space-around;}
+.timusica{grid-area:timusica;}
+.diva{grid-area:diva;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;}
+.divb{grid-area: divb;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;}
+.aside{grid-area: aside;background-color:blue}
+.redesclase{grid-area: foota;background-color: red}
+
+
+
+
+
+                                              /*ESTILOS SECCION PELICULAS*/
+
+.yop{width: 18em;}
+.residentp{width: 18em;}
+.slumdogp{width: 18em;}
+.readyp{width: 18em;}
+.terminatorp{width: 18em;}
+.harryp{width: 18em;}
+
 /*grids*/
-.bodypeliculas{display: grid;grid-template-columns: 200px 1fr auto 200px; grid-template-rows: 200px 20rem 20rem 20 rem;grid-template-areas: 
-"nav hea hea hea"
-"nav secu secu aside"
-"nav musicap-a musicap-a aside"
-"nav secb secb aside"
-"nav musicap-b musicap-b aside"
-"nav foo foo foo";}
+.gridpadrepeliculas{display:grid; grid-template-areas:
+"nav nav nav nav"
+"hea hea hea hea"
+"secu secu secu asidep"
+"secb secb secb asidep"
+"foo foo foo asidep";}
 
-.headerpeliculas{grid-area: nav; background-color: blue;}
+.headerpeliculas{grid-area: nav;}
 .titulopeliculas{grid-area: hea;}
-.seccionpeliculas{grid-area: secu;background-color: brown;display: flex;flex-direction: row;margin-bottom: 5em;}
-.seccionpeliculasb{grid-area: secb; background-color: beige;display: flex;flex-direction: row;}
-aside{grid-area: aside; background-color:black; color: white;}
-.footerpeliculas{grid-area: foo; background-color: aqua;}
-
-.musicap-a{grid-area:musicap-a;display: flex;flex-direction: row;}
-.musicap-b{grid-area:musicap-b;display: flex;flex-direction: row;}
-
-.yop{width: 20%;}
-.residentp{width: 20%;}
-.slumdogp{width: 20%;}
-.readyp{width: 20%;}
-.terminatorp{width: 20%;}
-.harryp{width: 20%;}
-
-.pelip {color: yellowgreen;text-decoration: none;font-size: 2em ;padding-left: 4em}
+.seccionpeliculas{grid-area: secu;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;}
+.seccionpeliculasb{grid-area: secb;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;}
+section.asidep{grid-area: asidep;}
+.footerpeliculas{grid-area: foo;}
 
 
-        /*ESTILOS SECCION CONTACTO*/
+
+
+
+
+                                         /*ESTILOS SECCION CONTACTO*/
 .contactobordes{margin-bottom: 1em; border: 4px solid blue; color: blue;}
 
 .bordemapa{border: 4px solid blue;display: inline-block;}
