@@ -12,37 +12,40 @@ body{background-color:white;}
     font-family: letradelbody;
     src: url(/Work_Sans/WorkSans-VariableFont_wght.ttf);}
                 /*GRIDS INDEX*/
-.contenedorgridindex{display: grid;grid-template-areas:
+.contenedorgridindex{display:grid;grid-template-areas:
         "headerindex headerindex headerindex headerindex"
         "tituloindex tituloindex tituloindex tituloindex"
         "textoindex textoindex textoindex asideindex"
+        "titulonovedades titulonovedades titulonovedades asideindex"
         "novedades novedades novedades asideindex"
+        "titulomasvendidos titulomasvendidos titulomasvendidos asideindex"
         "masvendidos masvendidos masvendidos asideindex"
         "footerindex footerindex footerindex footerindex";}
 
 .headerindex{grid-area: headerindex;}
 .tituloindex{grid-area: tituloindex}
 .textoindex{grid-area: textoindex}
-.novedades{grid-area: novedades}
+.titulonovedades{grid-area: titulonovedades}
+.novedades{grid-area: novedades; display:grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr;}
 .asideindex{grid-area: asideindex}
-.masvendidos{grid-area: masvendidos}
+.titulomasvendidos{grid-area: titulomasvendidos;}
+.masvendidos{grid-area: masvendidos;display:grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr;}
 .footerindex{grid-area: footerindex}
 
                 /*SECCION-UNO-BODY*/
 h1{font-size: 5em; background-image:url("/imagenes/portada-asimov.jpg"); background-attachment:fixed;background-repeat: round;color:aqua; padding: 7%;}
-.textoindex{font-size: 2em ; font-style: italic; font-family:letradelbody ; color:black;}
 
         /*SECCION-DOS-BODY*/
  h2{color:white;background-color:blue ;}
 .novpad {width: 20%;}
 .novquinto {width: 20%;}
 .novstars {width: 20%;}
-.novedades{display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-around; background-color:black;}
+
 
 .mvharry {width: 20%;}
 .mvnano {width: 20%;}
 .mvbastille {width: 20%;}
-.masvendidos {display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-around;background-color:black ;}
+
 
         /*FOOTER*/
 
@@ -69,7 +72,7 @@ h1{font-size: 5em; background-image:url("/imagenes/portada-asimov.jpg"); backgro
 
 .headerlibros{grid-area: nav;}
 .titulolibros{grid-area:titulo;}
-.sa{grid-area: sa;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr ;}
+.sa{grid-area: sa;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr;}
 .sb{grid-area: sb;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr;}
 .asidee{grid-area: asidee;}
 .fter{grid-area:fter}
