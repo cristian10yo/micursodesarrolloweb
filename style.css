@@ -32,6 +32,9 @@ body{background-color:white;}
 .masvendidos{grid-area: masvendidos;display:grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr;}
 .footerindex{grid-area: footerindex}
 
+                /*ASIDE*/
+.ejemplo-animacion:hover{transform:scale(4)}
+
                 /*SECCION-UNO-BODY*/
 h1{font-size: 5em; background-image:url("/imagenes/portada-asimov.jpg"); background-attachment:fixed;background-repeat: round;color:aqua; padding: 7%;}
 
