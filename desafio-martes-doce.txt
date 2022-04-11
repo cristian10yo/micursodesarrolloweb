@@ -1,0 +1,3 @@
+CAMBIOS:
+-cree rama e introduje transformaciones con transiciones en el INDEX.
+-MERGE DE LA RAMA Y SUBI AL GITHUB

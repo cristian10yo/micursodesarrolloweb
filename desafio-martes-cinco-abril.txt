@@ -1,3 +1,0 @@
-CAMBIOS:
--grid a seccion peliculas y libros(solo aplicarlo sin ningun estilo definitivo en particular)
--grid a seccion musica incluyendo precio e info debajo de las imagenes 
