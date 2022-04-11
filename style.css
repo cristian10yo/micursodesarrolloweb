@@ -37,6 +37,17 @@ body{background-color:white;}
 .tt{transition: all 3s;}
 .traslado:hover{transform: translateX(-20em); }
 .opacidad:hover{opacity:0.2;}
+
+
+.animacion:hover{animation:cambiacolor 4s;}
+@keyframes cambiacolor {
+        0%{background-color:gray; font: red;}
+        30%{font: green;}
+        
+}
+
+
+
                 /*SECCION-UNO-BODY*/
 h1{font-size: 5em; background-image:url("/imagenes/portada-asimov.jpg"); background-attachment:fixed;background-repeat: round;color:aqua; padding: 7%;}
 
