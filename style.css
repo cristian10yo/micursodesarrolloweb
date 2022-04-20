@@ -36,7 +36,7 @@ body{background-color:white;}
 .untext{margin-top: 7em;}
 
 
-                .bgrowindex {background-color: #d1d3d4;}
+.bgrowindex {background-color: #d1d3d4;}
 .contenedor-transformacion div:hover{transform: scale(4);}
 .tt{transition: all 3s;}
 .traslado:hover{transform: translateX(-20em); }
@@ -80,29 +80,20 @@ h1{font-size: 5em; background-image:url("/imagenes/portada-asimov.jpg"); backgro
 .harryl{width: 18em;}
 .dunal{width: 18em;}
                                          
-                                         
-                                         
+                                                                      
  /*grid libros*/
 .gridcontenedorlibros{display: grid;grid-template-areas: 
 "sa sa sa aside-libros"
 "sb sb sb aside-libros"
 "fter fter fter fter";}
                                          
-                                         
-                                         
-.sa{grid-area: sa;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr;}
-.sb{grid-area: sb;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr;}
+                                                                   
+.sa{grid-area: sa;display: grid;grid-template-columns: 1fr 1fr 1fr;}
+.sb{grid-area: sb;display: grid;grid-template-columns: 1fr 1fr 1fr;}
 .aside-libros{grid-area: aside-libros;}
 .fter{grid-area:fter}
                                          
                                          
-                                         
-
-.titulolibros{grid-area:titulo;}
-.sa{grid-area: sa;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr;}
-.sb{grid-area: sb;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr;}
-.asidee{grid-area: asidee;}
-.fter{grid-area:fter}
 
                                             /*ESTILOS SECCION MUSICA*/
 /*estilos imagenes*/                                          
