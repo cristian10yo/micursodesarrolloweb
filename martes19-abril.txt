@@ -1,0 +1,7 @@
+CAMBIOS:
+-nav de bootstrap en todas las secciones
+-en index rehice el maquetado con grids, la sección arriba del footer fue hecha con bootstrap
+-en contacto agregué más "estructura" (iconos de envio/locales/contacto)
+-agrego media querie a modo de prueba (ver en css abajo de todo). Aun no se a qué aplicarle específicamente
+-En sección contacto comencé a agregar un formulario
+-En sección Home apliqué una transición en el ASIDE.

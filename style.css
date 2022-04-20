@@ -1,0 +1,203 @@
+*{margin: 0;padding: 0;}
+                                         /*ESTILOS INDEX*/
+
+        /*HEADER*/
+header nav ul li{display: inline;}
+nav ul li a{font-size: 2em;text-decoration: none; color: blue;background-color:aqua;display:inline;padding-left: 2em; padding-right: 2em;}
+        /*FIN HEADER*/
+
+        /*COMIENZA BODY*/
+body{background-color:white;}
+@font-face {
+    font-family: letradelbody;
+    src: url(/Work_Sans/WorkSans-VariableFont_wght.ttf);}
+
+                /*GRID INDEX*/
+.contenedorgridindex{display: grid;grid-template-areas:
+        "gridtitulouno gridtitulouno gridtitulouno asideindex" 
+        "gridnovedades gridnovedades gridnovedades asideindex"
+        "gridtitulodos gridtitulodos gridtitulodos asideindex"
+        "gridmasvendidos gridmasvendidos gridmasvendidos asideindex"
+        ;}
+
+.gridtitulouno{grid-area: gridtitulouno;}
+.gridnovedades{grid-area: gridnovedades;display: grid;grid-template-columns: 1fr 1fr 1fr;}
+.gridtitulodos{grid-area: gridtitulodos;}
+.gridmasvendidos{grid-area: gridmasvendidos;display: grid;grid-template-columns: 1fr 1fr 1fr;}
+.asideindex{grid-area: asideindex;display: grid;grid-template-rows: 1fr 1fr 1fr 1fr;}
+
+
+
+
+                /*ASIDE*/
+.regalo,.ofertatrilogia{position: absolute;margin-top: 5em;}               
+.regalo{transition:all .8s}                 
+.regalo:hover{opacity: 1%;}
+.untext{margin-top: 7em;}
+
+
+                .bgrowindex {background-color: #d1d3d4;}
+.contenedor-transformacion div:hover{transform: scale(4);}
+.tt{transition: all 3s;}
+.traslado:hover{transform: translateX(-20em); }
+.opacidad:hover{opacity:0.2;}
+.costado{background-color: blue;height: 100%;}
+
+.animacion:hover{animation:cambiacolor 4s;}
+@keyframes cambiacolor {
+        0%{background-color:gray; font: red;}
+        30%{font: green;}
+        
+}
+
+
+
+                /*SECCION-UNO-BODY*/
+h1{font-size: 5em; background-image:url("/imagenes/portada-asimov.jpg"); background-attachment:fixed;background-repeat: round;color:aqua; padding: 7%;}
+
+        /*SECCION-DOS-BODY*/
+ h2{color:white;background-color:blue ;}
+.novpad {width: 20%;}
+.novquinto {width: 20%;}
+.novstars {width: 20%;}
+
+
+.mvharry {width: 20%;}
+.mvnano {width: 20%;}
+.mvbastille {width: 20%;}
+
+
+
+        /*FOOTER*/
+
+
+
+                                                /* ESTILOS SECCION LIBROS*/
+.caminantesl{width: 18em;} 
+.yorobotl{width: 18em;}
+.unmundol{width: 18em;}
+.georgel{width: 18em;}
+.harryl{width: 18em;}
+.dunal{width: 18em;}
+                                         
+                                         
+                                         
+ /*grid libros*/
+.gridcontenedorlibros{display: grid;grid-template-areas: 
+"sa sa sa aside-libros"
+"sb sb sb aside-libros"
+"fter fter fter fter";}
+                                         
+                                         
+                                         
+.sa{grid-area: sa;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr;}
+.sb{grid-area: sb;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr;}
+.aside-libros{grid-area: aside-libros;}
+.fter{grid-area:fter}
+                                         
+                                         
+                                         
+
+.titulolibros{grid-area:titulo;}
+.sa{grid-area: sa;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr;}
+.sb{grid-area: sb;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:3fr 0.5fr 0.5fr 0.5fr;}
+.asidee{grid-area: asidee;}
+.fter{grid-area:fter}
+
+                                            /*ESTILOS SECCION MUSICA*/
+/*estilos imagenes*/                                          
+.bastillem{width: 18em;margin-top: 4em;}
+.nanom{width: 18em;margin-top: 4em;}
+.nicom{width: 18em;margin-top: 4em;}
+.parachutesm{width: 18em;margin-top: 4em;}
+.thepeggiesm{width: 18em;margin-top: 4em;}
+.imaginem{width: 18em;margin-top: 4em;}
+
+/*estilos info de imagenes seccion a*/
+@font-face {
+        font-family: robotomusica;
+        src: url(/Roboto/Roboto-Black.ttf);}
+
+.tituloalbum{font-family:robotomusica; font-weight: bolder;}
+.cantante{font-family:robotomusica;font-weight: bold; color: gray;}
+.precioalbum{font-family:robotomusica;color: red;}
+
+
+/*estilos info de imagenes seccion b*/
+
+
+/*grids*/
+.contenedorpadremusica{display:grid; grid-template-areas:
+        "headmus headmus headmus headmus"
+        "timusica timusica timusica aside"
+        "diva diva diva aside"
+        "divb divb divb aside"
+        "foota foota foota foota";}
+
+.headmus{grid-area: headmus;display: flex; justify-content:space-around;}
+.timusica{grid-area:timusica;}
+.diva{grid-area:diva;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;}
+.divb{grid-area: divb;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;}
+.aside{grid-area: aside;background-color:blue}
+.redesclase{grid-area: foota;background-color: red}
+
+
+
+
+
+                                                /*ESTILOS SECCION PELICULAS*/
+
+.yop{width: 18em;}
+.residentp{width: 18em;}
+.slumdogp{width: 18em;}
+.readyp{width: 18em;}
+.terminatorp{width: 18em;}
+.harryp{width: 18em;}
+
+/*grids*/
+.gridpadrepeliculas{display:grid; grid-template-areas:
+
+"hea hea hea hea"
+"secu secu secu asidep"
+"secb secb secb asidep"
+"foo foo foo asidep";}
+
+
+.titulopeliculas{grid-area: hea;}
+.seccionpeliculas{grid-area: secu;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;}
+.seccionpeliculasb{grid-area: secb;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;}
+section.asidep{grid-area: asidep;}
+.footerpeliculas{grid-area: foo;}
+
+
+
+
+
+
+                                         /*ESTILOS SECCION CONTACTO*/
+.contactobordes{margin-bottom: 1em; border: 4px solid blue; color: blue;}
+
+.bordemapa{border: 4px solid blue;display: inline-block;}
+
+.carousel.slide.w-50{display:flex; justify-content:end;}
+
+.iconolocales,.iconocontacto,.iconotransporte{width: 70%;}
+.iconotransporte:hover {transform: scale(2);}
+.iconocontacto:hover {transform: scale(2);}
+.iconolocales:hover {transform: scale(2);}
+
+.atalcliente{color: blueviolet; text-decoration: underline solid;}
+.form-row:hover{background-color: yellow;}
+
+
+
+                                        /*MEDIA QUERIE*/
+
+                                        /*SE APLICA SOLO A LA SECCION MUSICA PORQUE TIENE BACKGROUND COLOR*/
+@media screen and (max-width: 490px){
+        body{background-color: green;}
+}
+                                        /*DESAPARECE  SECCIÓN ASIDE EN INDEX*/
+@media screen and (max-width: 490px) and (min-height:810px){
+        .asideindex{display: none;}
+}
