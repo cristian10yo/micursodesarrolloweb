@@ -1,0 +1,138 @@
+/*HEADER*/
+
+/*COMIENZA BODY*/
+
+
+@font-face {
+  font-family: letradelbody;
+  src: url(/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+/*GRID INDEX*/
+.contenedorgridindex {
+  display: grid;
+  grid-template-areas: "gridtitulouno gridtitulouno gridtitulouno asideindex" "gridnovedades gridnovedades gridnovedades asideindex" "gridtitulodos gridtitulodos gridtitulodos asideindex" "gridmasvendidos gridmasvendidos gridmasvendidos asideindex";
+}
+
+.gridtitulouno {
+  grid-area: gridtitulouno;
+}
+
+.gridnovedades {
+  grid-area: gridnovedades;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gridtitulodos {
+  grid-area: gridtitulodos;
+}
+
+.gridmasvendidos {
+  grid-area: gridmasvendidos;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.asideindex {
+  grid-area: asideindex;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+/*ASIDE*/
+.regalo, .ofertatrilogia {
+  position: absolute;
+  margin-top: 5em;
+}
+
+.regalo {
+  transition: all 0.8s;
+}
+
+.regalo:hover {
+  opacity: 1%;
+}
+
+.untext {
+  margin-top: 7em;
+}
+
+.bgrowindex {
+  background-color: #d1d3d4;
+}
+
+.contenedor-transformacion div:hover {
+  transform: scale(4);
+}
+
+.tt {
+  transition: all 3s;
+}
+
+.traslado:hover {
+  transform: translateX(-20em);
+}
+
+.opacidad:hover {
+  opacity: 0.2;
+}
+
+.costado {
+  background-color: blue;
+  height: 100%;
+}
+
+.animacion:hover {
+  animation: cambiacolor 4s;
+}
+
+@keyframes cambiacolor {
+  0% {
+    background-color: gray;
+    font: red;
+  }
+  30% {
+    font: green;
+  }
+}
+/*SECCION-UNO-BODY*/
+h1 {
+  font-size: 5em;
+  background-image: url("/imagenes/portada-asimov.jpg");
+  background-attachment: fixed;
+  background-repeat: round;
+  color: aqua;
+  padding: 7%;
+}
+
+/*SECCION-DOS-BODY*/
+h2 {
+  color: white;
+  background-color: blue;
+}
+
+.novpad {
+  width: 20%;
+}
+
+.novquinto {
+  width: 20%;
+}
+
+.novstars {
+  width: 20%;
+}
+
+.mvharry {
+  width: 20%;
+}
+
+.mvnano {
+  width: 20%;
+}
+
+.mvbastille {
+  width: 20%;
+}
+
+/*# sourceMappingURL=style.css.map */
