@@ -8,6 +8,11 @@ h1 {
   padding: 7%;
 }
 
+h2 {
+  color: white;
+  background-color: blue;
+}
+
 /*GRID INDEX*/
 .contenedorgridindex {
   display: grid;
@@ -95,11 +100,6 @@ h1 {
   30% {
     font: green;
   }
-}
-/*SECCION-DOS-BODY*/
-h2 {
-  color: white;
-  background-color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */
