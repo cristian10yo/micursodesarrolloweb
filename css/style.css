@@ -1,12 +1,13 @@
-/*HEADER*/
-
-/*COMIENZA BODY*/
-
-
-@font-face {
-  font-family: letradelbody;
-  src: url(/Work_Sans/WorkSans-VariableFont_wght.ttf);
+/*SECCION-UNO-BODY*/
+h1 {
+  font-size: 5em;
+  background-image: url("/imagenes/portada-asimov.jpg");
+  background-attachment: fixed;
+  background-repeat: round;
+  color: aqua;
+  padding: 7%;
 }
+
 /*GRID INDEX*/
 .contenedorgridindex {
   display: grid;
@@ -95,44 +96,10 @@
     font: green;
   }
 }
-/*SECCION-UNO-BODY*/
-h1 {
-  font-size: 5em;
-  background-image: url("/imagenes/portada-asimov.jpg");
-  background-attachment: fixed;
-  background-repeat: round;
-  color: aqua;
-  padding: 7%;
-}
-
 /*SECCION-DOS-BODY*/
 h2 {
   color: white;
   background-color: blue;
-}
-
-.novpad {
-  width: 20%;
-}
-
-.novquinto {
-  width: 20%;
-}
-
-.novstars {
-  width: 20%;
-}
-
-.mvharry {
-  width: 20%;
-}
-
-.mvnano {
-  width: 20%;
-}
-
-.mvbastille {
-  width: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */

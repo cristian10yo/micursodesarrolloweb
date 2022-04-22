@@ -1,10 +1,2 @@
-        /*HEADER*/
-        header nav ul li{display: inline;}
-        nav ul li a{font-size: 2em;text-decoration: none; color: blue;background-color:aqua;display:inline;padding-left: 2em; padding-right: 2em;}
-                /*FIN HEADER*/
-        
-                /*COMIENZA BODY*/
-        body{background-color:white;}
-        @font-face {
-            font-family: letradelbody;
-            src: url(/Work_Sans/WorkSans-VariableFont_wght.ttf);}
+        /*SECCION-UNO-BODY*/
+        h1{font-size: 5em; background-image:url("/imagenes/portada-asimov.jpg"); background-attachment:fixed;background-repeat: round;color:aqua; padding: 7%;}
