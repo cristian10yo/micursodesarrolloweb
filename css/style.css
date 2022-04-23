@@ -63,6 +63,23 @@ h2 {
   margin-top: 7em;
 }
 
+.regalo-dos {
+  position: relative;
+  bottom: 22em;
+}
+
+.regalo-dos:hover {
+  animation: changeImage 5s;
+}
+
+@keyframes changeImage {
+  15% {
+    opacity: 1%;
+  }
+  100% {
+    opacity: 1%;
+  }
+}
 .bgrowindex {
   background-color: #d1d3d4;
 }
