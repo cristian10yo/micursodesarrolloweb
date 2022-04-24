@@ -2,25 +2,8 @@
 
 
                                          /* ESTILOS SECCION LIBROS*/
-                                         .caminantesl{width: 18em;} 
-                                         .yorobotl{width: 18em;}
-                                         .unmundol{width: 18em;}
-                                         .georgel{width: 18em;}
-                                         .harryl{width: 18em;}
-                                         .dunal{width: 18em;}
-                                                                                  
-                                                                                                               
-                                          /*grid libros*/
-                                         .gridcontenedorlibros{display: grid;grid-template-areas: 
-                                         "sa sa sa aside-libros"
-                                         "sb sb sb aside-libros"
-                                         "fter fter fter fter";}
-                                                                                  
-                                                                                                            
-                                         .sa{grid-area: sa;display: grid;grid-template-columns: 1fr 1fr 1fr;}
-                                         .sb{grid-area: sb;display: grid;grid-template-columns: 1fr 1fr 1fr;}
-                                         .aside-libros{grid-area: aside-libros;}
-                                         .fter{grid-area:fter}
+                                                                                          
+                                   /*PRESTAR ATENCIÓN QUE EL ARCHIVO CSS LO PUSE DENTRO DE OTRA CARPETA, CAMBIAR EL LINK DE CADA ARCHIVO*/
 
                                             /*ESTILOS SECCION MUSICA*/
 /*estilos imagenes*/                                          

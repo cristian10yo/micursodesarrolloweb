@@ -1,0 +1,11 @@
+       /*grid libros*/
+       .gridcontenedorlibros{display: grid;grid-template-areas: 
+        "sa sa sa aside-libros"
+        "sb sb sb aside-libros"
+        "fter fter fter fter";}
+                                                 
+                                                                           
+        .sa{grid-area: sa;display: grid;grid-template-columns: 1fr 1fr 1fr; background-color: gray;}
+        .sb{grid-area: sb;display: grid;grid-template-columns: 1fr 1fr 1fr;}
+        .aside-libros{grid-area: aside-libros;}
+        .fter{grid-area:fter}
