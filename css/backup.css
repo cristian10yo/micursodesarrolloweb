@@ -1,49 +1,11 @@
 *{margin: 0;padding: 0;}
 
 
-                                         /* ESTILOS SECCION LIBROS*/
+                                
                                                                                           
                                    /*PRESTAR ATENCIÓN QUE EL ARCHIVO CSS LO PUSE DENTRO DE OTRA CARPETA, CAMBIAR EL LINK DE CADA ARCHIVO*/
 
-                                            /*ESTILOS SECCION MUSICA*/
-/*estilos imagenes*/                                          
-.bastillem{width: 18em;margin-top: 4em;}
-.nanom{width: 18em;margin-top: 4em;}
-.nicom{width: 18em;margin-top: 4em;}
-.parachutesm{width: 18em;margin-top: 4em;}
-.thepeggiesm{width: 18em;margin-top: 4em;}
-.imaginem{width: 18em;margin-top: 4em;}
-
-/*estilos info de imagenes seccion a*/
-@font-face {
-        font-family: robotomusica;
-        src: url(/Roboto/Roboto-Black.ttf);}
-
-.tituloalbum{font-family:robotomusica; font-weight: bolder;}
-.cantante{font-family:robotomusica;font-weight: bold; color: gray;}
-.precioalbum{font-family:robotomusica;color: red;}
-
-
-/*estilos info de imagenes seccion b*/
-
-
-/*grids*/
-.contenedorpadremusica{display:grid; grid-template-areas:
-        "headmus headmus headmus headmus"
-        "timusica timusica timusica aside"
-        "diva diva diva aside"
-        "divb divb divb aside"
-        "foota foota foota foota";}
-
-.headmus{grid-area: headmus;display: flex; justify-content:space-around;}
-.timusica{grid-area:timusica;}
-.diva{grid-area:diva;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;}
-.divb{grid-area: divb;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;}
-.aside{grid-area: aside;background-color:blue}
-.redesclase{grid-area: foota;background-color: red}
-
-
-
+                                   
 
 
                                               /*ESTILOS SECCION PELICULAS*/

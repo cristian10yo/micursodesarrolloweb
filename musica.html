@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-                     <section class="contenedorpadremusica">
+  <section class="container"> <!--BOOTSTRAP-->
         <!--HEADER-->
-    <header class="headmus">
+    <header>
                                      <!--COMPONENTE NAVBAR-->
                                      <nav class="navbar navbar-expand-lg navbar-light bg-light">
                                         <div class="container-fluid">
@@ -48,65 +48,144 @@
                                       </nav>
 </header>
 
-        <!--SECCION TITULO-->
-                        
-    <h1 class="timusica">MUSICA</h1>
-        <!--SECCION UNO-->
-
+    <div class="contenedor-grid-musica"><!--CONTENEDOR GRID-->
+         
         
-    <div class="diva">
-<img class="bastillem" src="/imagenes/bastille bad blood.jpg" alt="">
-<img class="nicom" src="/imagenes/nico touches the walls no best 2014.jpg" alt="">
-<img class="nanom " src="/imagenes/nano.png" alt="">
-<p class="tituloalbum">BAD BLOOD</p>
-<p class="tituloalbum">NO BEST</p>
-<p class="tituloalbum">NANOIR</p>
-<p class="cantante">BASTILLE</p>
-<p class="cantante">NICO TOUCHES THE WALLS</p>
-<p class="cantante">NANO</p>
-<p class="precioalbum">$1500</p>
-<p class="precioalbum">$1999</p>
-<p class="precioalbum">$2800</p>
+    <div class="titulo-musica">
+    <h1>MUSICA</h1>
+    </div>    
+
+       <!--CARDS-->
+
+       <div class="diva"> <!--primera row-->
+
+       <div class="card" style="width: 18rem;">
+        <img src="/imagenes/bastille bad blood.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BAD BLOOD</h5>
+          <p class="card-text">BASTILLE</p>
+          <p class="card-text">$950</p>
+          <a href="#" class="btn btn-primary">COMPRAR</a>
+        </div>
+       </div>
+
+       <div class="card" style="width: 18rem;">
+        <img src="/imagenes/nico touches the walls no best 2014.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">NO BEST</h5>
+          <p class="card-text">NICO TOUCHES THE WALLS</p>
+          <p class="card-text">$1200</p>
+          <a href="#" class="btn btn-primary">COMPRAR</a>
+        </div>
+       </div>
+
+       <div class="card" style="width: 18rem;">
+        <img src="/imagenes/nano.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">NANOIR</h5>
+          <p class="card-text">NANO</p>
+          <p class="card-text">$1100</p>
+          <a href="#" class="btn btn-primary">COMPRAR</a>
+        </div>
+       </div>
+
+      </div> <!--fin primera row-->
+
+    
 
 
+
+
+<div class="divb"> <!--SEGUNDA ROW-->
+
+  <div class="card" style="width: 18rem;">
+    <img src="/imagenes/imaginecinco.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">SMOKE+MIRRORS</h5>
+      <p class="card-text">IMAGINE DRAGONS</p>
+      <p class="card-text">$1900</p>
+      <a href="#" class="btn btn-primary">COMPRAR</a>
     </div>
+   </div>
+
+   <div class="card" style="width: 18rem;">
+    <img src="/imagenes/parachutes coldplay musica.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">PARACHUTES</h5>
+      <p class="card-text">COLDPLAY</p>
+      <p class="card-text">$900</p>
+      <a href="#" class="btn btn-primary">COMPRAR</a>
+    </div>
+   </div>
+
+   <div class="card" style="width: 18rem;">
+    <img src="/imagenes/the peggies hell like heaven.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">HELL LIKE HEAVEN</h5>
+      <p class="card-text">THE PEGGIES</p>
+      <p class="card-text">$1700</p>
+      <p class="card-text">$1700</p>
+      <a href="#" class="btn btn-primary">COMPRAR</a>
+    </div>
+   </div>
+
+
+</div><!--FIN SEGUNDA ROW-->
 
 
 
-<div class="divb">
-<img class="imaginem" src="/imagenes/imaginecinco.jpg" alt="">
-<img class="parachutesm" src="/imagenes/parachutes coldplay musica.jpg" alt="">
-<img class="thepeggiesm" src="/imagenes/the peggies hell like heaven.jpg" alt="">
-<p class="tituloalbum">SMOKE AND MIRRORS</p>
-<p class="tituloalbum">PARACHUTES</p>
-<p class="tituloalbum">HELL LIKE HEAVEN</p>
-<p class="cantante">IMAGINE DRAGONS</p>
-<p class="cantante">COLDPLAY</p>
-<p class="cantante">THE PEGGIES</p>
-<p class="precioalbum">$2300</p>
-<p class="precioalbum">$1500</p>
-<p class="precioalbum">$1700</p>
-</div>
 
-
-
-
-<aside class="aside">
-
-    <p>poner algo</p>
+<aside class="aside">                   <!--ASIDE-->
+  <div>
+    <img src="/imagenes/icons8-twitter-color.png" alt="">
+    <img src="/imagenes/icons8-instagram-color.png" alt="">
+    <img src="/imagenes/icons8-facebook-color.png" alt="">
+  </div>  
 
 </aside>
 
-        <!--FOOTER-->
-<footer class="redesclase">
-    <section>
-        <img src="/imagenes/icons8-twitter-color.png" alt="">
-        <img src="/imagenes/icons8-instagram-color.png" alt="">
-        <img src="/imagenes/icons8-facebook-color.png" alt="">
-        </section>
-    <p> Dirección:Murguiondo 4075, Villa Lugano, CABA</p>
+        
+
+</div> <!--FIN CONTENEDOR GRID-->
+
+
+<div class="row bgrowindex">
+  <div class="col-3">
+<p>LIBRERIA ASIMOV</p>
+<p>Locales</p>
+<p>Contacto</p>
+<p>Politicas de privacidad</p>
+<p>Trabajar con nosotros</p>
+</div>
+
+  <div class="col-3">
+  <p>GUÍA DE COMPRA</p>
+  <p>Atención al cliente</p>
+  <p>Promociones</p>
+  <p>Devoluciones</p>
+  <p>Preguntas frecuentes</p>
+ </div>
+
+  <div class="col-3">
+  <p>MI USUARIO</p>
+  <p>Registrarse</p>
+  <p>Suscripción a novedades</p>
+ </div>
+
+  
+  <div class="col-3">
+   <p>CATÁLOGO DE PRODUCTOS</p>
+   <p>Libros por tema</p>
+   <p>Búsqueda avanzada</p>
+ </div>
+
+</div>
+
+                        <!--FOOTER-->
+<footer>
+<p> Dirección:Murguiondo 4075, Villa Lugano, CABA</p>
 </footer>
-                        </section>
+                        </section> <!--FIN SECTION CONTAINER DE BOOTSTRAP-->
 
                         <!--BOOTSTRAP SEPARATE-->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
