@@ -1,0 +1,12 @@
+/*grids*/
+.grid-padre-peliculas{display:grid; grid-template-areas:
+    "titulo-peliculas titulo-peliculas titulo-peliculas titulo-peliculas"
+    "secu secu secu aside-peliculas"
+    "secb secb secb aside-peliculas";
+    }
+    
+    
+    .titulo-peliculas{grid-area: titulo-peliculas;}
+    .seccionpeliculas{grid-area: secu;display: grid;grid-template-columns: 1fr 1fr 1fr;}
+    .seccionpeliculasb{grid-area: secb;display: grid;grid-template-columns: 1fr 1fr 1fr;}
+    .aside-peliculas{grid-area: aside-peliculas;}

@@ -5,35 +5,7 @@
                                                                                           
                                    /*PRESTAR ATENCIÓN QUE EL ARCHIVO CSS LO PUSE DENTRO DE OTRA CARPETA, CAMBIAR EL LINK DE CADA ARCHIVO*/
 
-                                   
-
-
-                                              /*ESTILOS SECCION PELICULAS*/
-
-.yop{width: 18em;}
-.residentp{width: 18em;}
-.slumdogp{width: 18em;}
-.readyp{width: 18em;}
-.terminatorp{width: 18em;}
-.harryp{width: 18em;}
-
-/*grids*/
-.gridpadrepeliculas{display:grid; grid-template-areas:
-
-"hea hea hea hea"
-"secu secu secu asidep"
-"secb secb secb asidep"
-"foo foo foo asidep";}
-
-
-.titulopeliculas{grid-area: hea;}
-.seccionpeliculas{grid-area: secu;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;}
-.seccionpeliculasb{grid-area: secb;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;}
-section.asidep{grid-area: asidep;}
-.footerpeliculas{grid-area: foo;}
-
-
-
+                                
 
 
 
