@@ -7,7 +7,7 @@
   ;}
 
 .gridtitulouno{grid-area: gridtitulouno;}
-.gridnovedades{grid-area: gridnovedades;display: grid;grid-template-columns: 1fr 1fr 1fr;}
+.gridnovedades{grid-area: gridnovedades;@extend %grid-extend;}
 .gridtitulodos{grid-area: gridtitulodos;}
-.gridmasvendidos{grid-area: gridmasvendidos;display: grid;grid-template-columns: 1fr 1fr 1fr;}
-.asideindex{grid-area: asideindex;display: grid;grid-template-rows: 1fr 1fr 1fr 1fr;}
+.gridmasvendidos{grid-area: gridmasvendidos;@extend %grid-extend;}
+.asideindex{grid-area: asideindex; display:grid;grid-template-rows: 3fr 3fr 3fr 3fr;}

@@ -1,0 +1,5 @@
+CAMBIOS:
+-al h1 del index le coloqué un extend a modo de prueba
+-utilicé mixins para las propiedades de grid a modo de prueba(la verdad no le encontre un valor practico por el momento)
+-coloque meta description a todas las secciones
+-agregué key words en todas las secciones

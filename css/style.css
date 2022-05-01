@@ -1,16 +1,7 @@
 /*SECCION-UNO-BODY*/
-h1 {
-  font-size: 5em;
-  background-image: url("/imagenes/portada-asimov.jpg");
-  background-attachment: fixed;
-  background-repeat: round;
-  color: aqua;
-  padding: 7%;
-}
-
 h2 {
-  color: white;
   background-color: blue;
+  color: white;
 }
 
 /*GRID INDEX*/
@@ -25,8 +16,6 @@ h2 {
 
 .gridnovedades {
   grid-area: gridnovedades;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .gridtitulodos {
@@ -35,14 +24,12 @@ h2 {
 
 .gridmasvendidos {
   grid-area: gridmasvendidos;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .asideindex {
   grid-area: asideindex;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 3fr 3fr 3fr 3fr;
 }
 
 /*ASIDE*/
@@ -196,6 +183,36 @@ h2 {
 
 .aside-peliculas {
   grid-area: aside-peliculas;
+}
+
+h1 {
+  font-size: 5em;
+  background-image: url("/imagenes/portada-asimov.jpg");
+  background-attachment: fixed;
+  background-repeat: round;
+  color: aqua;
+  padding: 7%;
+}
+
+.gridnovedades, .gridmasvendidos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.iconolocales, .iconocontacto, .iconotransporte {
+  width: 70%;
+}
+
+.iconotransporte:hover {
+  transform: scale(2);
+}
+
+.iconocontacto:hover {
+  transform: scale(2);
+}
+
+.iconolocales:hover {
+  transform: scale(2);
 }
 
 /*# sourceMappingURL=style.css.map */

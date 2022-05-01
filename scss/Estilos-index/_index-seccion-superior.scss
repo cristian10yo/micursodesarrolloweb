@@ -1,4 +1,7 @@
         /*SECCION-UNO-BODY*/
-        h1{font-size: 5em; background-image:url("/imagenes/portada-asimov.jpg"); background-attachment:fixed;background-repeat: round;color:aqua; padding: 7%;}
+        h1{@extend %titulo-importante;}
         
-        h2{color:white;background-color:blue ;}
+        h2{background-color:blue; color: white;}
+
+        
+        
