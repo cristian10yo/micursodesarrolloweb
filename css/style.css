@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*SECCION-UNO-BODY*/
 h2 {
   background-color: blue;
@@ -215,18 +216,27 @@ h1 {
   transform: scale(2);
 }
 
-.carousel.slide.w-50 {
-  display: flex;
-  justify-content: end;
-}
-
-.atalcliente {
+.atencion-cliente {
   color: blueviolet;
   text-decoration: underline solid;
 }
 
 .form-row:hover {
   background-color: yellow;
+}
+
+/*MEDIA QUERIE*/
+/*SE APLICA SOLO A LA SECCION MUSICA PORQUE TIENE BACKGROUND COLOR*/
+@media screen and (max-width: 490px) {
+  body {
+    background-color: green;
+  }
+}
+/*DESAPARECE  SECCIÓN ASIDE EN INDEX*/
+@media screen and (max-width: 490px) and (min-height: 810px) {
+  .asideindex {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
