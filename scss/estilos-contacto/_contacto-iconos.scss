@@ -1,4 +1,11 @@
 .iconolocales,.iconocontacto,.iconotransporte{width: 70%;}
+
 .iconotransporte:hover {transform: scale(2);}
 .iconocontacto:hover {transform: scale(2);}
 .iconolocales:hover {transform: scale(2);}
+
+
+.carousel.slide.w-50{display:flex; justify-content:end;}
+
+.atalcliente{color: blueviolet; text-decoration: underline solid;}
+.form-row:hover{background-color: yellow;}
