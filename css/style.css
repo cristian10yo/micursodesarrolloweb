@@ -228,7 +228,7 @@ h1 {
 /*MEDIA QUERIE*/
 /*SE APLICA SOLO A LA SECCION MUSICA PORQUE TIENE BACKGROUND COLOR*/
 @media screen and (max-width: 490px) {
-  body {
+  .asideindex {
     background-color: green;
   }
 }
@@ -236,6 +236,12 @@ h1 {
 @media screen and (max-width: 490px) and (min-height: 810px) {
   .asideindex {
     display: none;
+  }
+}
+/*Mobile*/
+@media screen and (max-width: 490px) {
+  .contenedorgridindex {
+    width: 70% !important;
   }
 }
 
