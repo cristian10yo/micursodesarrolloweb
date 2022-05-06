@@ -5,34 +5,6 @@ h2 {
   color: white;
 }
 
-/*GRID INDEX*/
-.contenedorgridindex {
-  display: grid;
-  grid-template-areas: "gridtitulouno gridtitulouno gridtitulouno asideindex" "gridnovedades gridnovedades gridnovedades asideindex" "gridtitulodos gridtitulodos gridtitulodos asideindex" "gridmasvendidos gridmasvendidos gridmasvendidos asideindex";
-}
-
-.gridtitulouno {
-  grid-area: gridtitulouno;
-}
-
-.gridnovedades {
-  grid-area: gridnovedades;
-}
-
-.gridtitulodos {
-  grid-area: gridtitulodos;
-}
-
-.gridmasvendidos {
-  grid-area: gridmasvendidos;
-}
-
-.asideindex {
-  grid-area: asideindex;
-  display: grid;
-  grid-template-rows: 3fr 3fr 3fr 3fr;
-}
-
 /*ASIDE*/
 .regalo, .ofertatrilogia {
   position: absolute;
@@ -45,10 +17,6 @@ h2 {
 
 .regalo:hover {
   opacity: 1%;
-}
-
-.untext {
-  margin-top: 7em;
 }
 
 .regalo-dos {
@@ -195,11 +163,6 @@ h1 {
   padding: 7%;
 }
 
-.gridnovedades, .gridmasvendidos {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 .iconolocales, .iconocontacto, .iconotransporte {
   width: 70%;
 }
@@ -239,10 +202,5 @@ h1 {
   }
 }
 /*Mobile*/
-@media screen and (max-width: 490px) {
-  .contenedorgridindex {
-    width: 70% !important;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */

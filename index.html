@@ -59,12 +59,12 @@
                     <!--SECCION-UNO-BODY-->
                     
 
-<section class="tituloindex">
+<section class="row"> <!--row a-->
 <h1>LIBRERIA ASIMOV</h1>
 </section>
 
 
-<section class="textoindex">
+<section class="row"> <!--row b-->
 <p>Somos una libreria con 20 años de experiencia en brindar la mejor atención a nuestros clientes. Nos especializamos en lo que más te gusta: 
 <ul>
 <li>Libros de ciencia ficción y fantasía</li> 
@@ -75,19 +75,16 @@
 </section>
                     <!--SECCION-DOS-BODY-->
 
-                    <!--COMIENZA GRID CONTENEDOR-->
                     
-<section class="contenedorgridindex ">
-<h2 class="gridtitulouno">NOVEDADES</h2>
+                    
+<section class="row"> <!--primera row-->
+<h2>NOVEDADES</h2>
+</section>
 
+<div class="row"><!--segunda row-->
 
-                    <!--COMIENZA GRID CONTENEDOR-->
-
-   
-
-   <div class="gridnovedades">
-
-                    <!--COMPONENTE BOOTSTRAP TARJETAS-->
+  <!--COMPONENTE BOOTSTRAP TARJETAS-->
+  <div class="col-3"> <!--primera columna segunda row-->
     <div class="card" style="width: 18rem;">
     <img src="/imagenes/elpadrino.jpg" class="card-img-top" alt="Novedad, el padrino">
     <div class="card-body">
@@ -97,9 +94,9 @@
     <a href="#" class="btn btn-primary">Comprar</a>
     </div>
     </div>
+  </div>
 
-
-
+  <div class="col-3"><!--segunda columna de la segunda row-->
     <div class="card" style="width: 18rem;">
     <img src="/imagenes/starwarsquincerectangular.jpg" class="card-img-top" alt="Novedad, star wars">
     <div class="card-body">
@@ -109,9 +106,9 @@
     <a href="#" class="btn btn-primary">Comprar</a>
     </div>
     </div>
+  </div>
 
-
-
+  <div class="col-3"><!--tercera columna de la segunda row-->
     <div class="card" style="width: 18rem;">
     <img src="/imagenes/elquintoelemento.jpg" class="card-img-top" alt="Novedad, el quinto elemento">
     <div class="card-body">
@@ -121,16 +118,38 @@
     <a href="#" class="btn btn-primary">Comprar</a>
     </div>
     </div>
+  </div>
+
+
+  <div class="col-3"> <!--cuarta columna segunda row-->
+        
+    <div>
+       <h3>DESCUBRÍ LOS REGALOS QUE TENEMOS PARA VOS</h3>
+    </div>
+
+       <!--ANIMACIONES PARA DESAFIO-->
      
-  </div>           <!--FIN GRID NOVEDADES-->
+       <div class="ofertatrilogia">
+         <img src="/imagenes/OFERTATRILOGIAredimens.jpg" alt="">
+       </div>
+
+       <div class="regalo">
+         <img src="/imagenes/regalorecortado.jpg" alt="caja con envoltura de regalo">
+       </div>
+
+      </div><!--fin cuarta columna segunda row-->
+
+
+  </div>           <!--fin segunda row-->
     
 
-
-  <h2 class="gridtitulodos">MAS VENDIDOS</h2>
+<div class="row"><!--tercera row-->
+  <h2 class="col-9">MAS VENDIDOS</h2>
+</div>
   
-
+  <div class="row"><!--cuarta row-->
                     <!--COMPONENTE BOOTSTRAP TARJETAS-->
-        <div class="gridmasvendidos">
+        <div class="col-3"> <!--primera columna cuarta row-->
 
             <div class="card" style="width: 18rem;">
                 <img src="/imagenes/harry potter la orden del fenix pelicula.jpg" class="card-img-top" alt="portada pelicula harry potter">
@@ -141,8 +160,9 @@
                   <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
+        </div>
         
-        
+        <div class="col-3"><!--segunda columna cuarta row-->
             <div class="card" style="width: 18rem;">
                 <img src="/imagenes/nanorectangular.png" class="card-img-top" alt="portada cd nano">
                 <div class="card-body">
@@ -152,9 +172,9 @@
                   <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
-        
+          </div> 
 
-        
+        <div class="col-3"><!--tercera columna de cuarta row-->
             <div class="card" style="width: 18rem;">
                 <img src="/imagenes/bastillebadbloodrectangular.jpg" class="card-img-top" alt="portada cd bastille">
                 <div class="card-body">
@@ -164,52 +184,21 @@
                   <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
-        
-
-       </div>                           <!--FIN GRID MAS VENDIDOS-->
-
-                                        <!--ASIDE-->
-       <aside class="asideindex">
-        
-       <div class="tituloaside">
-          <h3>DESCUBRÍ LOS REGALOS QUE TENEMOS PARA VOS</h3>
-       </div>
-
-          <!--ANIMACIONES PARA DESAFIO-->
-        
-          <div class="ofertatrilogia">
-            <img src="/imagenes/OFERTATRILOGIAredimens.jpg" alt="">
           </div>
 
-          <div class="regalo">
-            <img src="/imagenes/regalorecortado.jpg" alt="caja con envoltura de regalo">
-          </div>
-          
-          
-          
-          <div>
-          <p class="untext"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quaerat non nobis quibusdam rem officiis iusto mic magnam? Fugiat dolores illum incidunt eveniet necessitatibus neque nisi iste possimus excepturi repellat natus consequatur temporibus maiores ratione dignissimos suscipit quidem, modi hic assumenda. Magni, asperiores!</p>
-          </div>
+          <div class="col-3"><!--cuarta columna de cuarta row-->
 
+            <div class="promo-dos"> <!--segunda animación-->
+              <img src="/imagenes/promo-it-redim.jpg" alt="promoción dos por uno en libro y pelicula it">
+            </div>
+            <div class="regalo-dos">
+              <img src="/imagenes/regalorecortado.jpg" alt="caja con envoltura de regalo">
+            </div> <!--fin segunda animación-->
 
-         
+          </div><!--fin cuarta columna de cuarta row-->
 
-          <div class="promo-dos">
-            <img src="/imagenes/promo-it-redim.jpg" alt="promoción dos por uno en libro y pelicula it">
-          </div>
-          <div class="regalo-dos">
-            <img src="/imagenes/regalorecortado.jpg" alt="caja con envoltura de regalo">
-          </div>
-        
-<div>
-          <img src="/imagenes/icons8-twitter-color.png" alt="">
-        <img src="/imagenes/icons8-instagram-color.png" alt="">
-        <img src="/imagenes/icons8-facebook-color.png" alt="">
-      </div>
-          </aside>
-        
-        </section>                                    <!--FIN GRID-->
-      
+          </div><!--fin cuarta row-->
+                             
 
        <div class="row bgrowindex">
          <div class="col-3">
@@ -218,6 +207,7 @@
 <p>Contacto</p>
 <p>Politicas de privacidad</p>
 <p>Trabajar con nosotros</p>
+<img src="/imagenes/icons8-twitter-color.png" alt="">
 </div>
 
          <div class="col-3">
@@ -226,12 +216,14 @@
          <p>Promociones</p>
          <p>Devoluciones</p>
          <p>Preguntas frecuentes</p>
+         <img src="/imagenes/icons8-instagram-color.png" alt="">
         </div>
 
          <div class="col-3">
          <p>MI USUARIO</p>
          <p>Registrarse</p>
          <p>Suscripción a novedades</p>
+         <img src="/imagenes/icons8-facebook-color.png" alt="">
         </div>
        
          
