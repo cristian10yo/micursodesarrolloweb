@@ -1,13 +1,7 @@
 /*ASIDE*/
 
-.regalo,.ofertatrilogia{position: absolute;margin-top: 5em;}               
-.regalo{transition:all .8s}                 
+            
 .regalo:hover{opacity: 1%;}
 
-.regalo-dos{ position: relative; bottom:22em}
-.regalo-dos:hover{animation: changeImage 5s;}
-@keyframes changeImage {
-    
-    15%{opacity: 1%;}
-    100%{opacity: 1%;}
-}
+
+

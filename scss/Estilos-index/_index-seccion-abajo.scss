@@ -1,13 +1,1 @@
 .bgrowindex {background-color: #d1d3d4;}
-.contenedor-transformacion div:hover{transform: scale(4);}
-.tt{transition: all 3s;}
-.traslado:hover{transform: translateX(-20em); }
-.opacidad:hover{opacity:0.2;}
-.costado{background-color: blue;height: 100%;}
-
-.animacion:hover{animation:cambiacolor 4s;}
-@keyframes cambiacolor {
-        0%{background-color:gray; font: red;}
-        30%{font: green;}
-        
-}
