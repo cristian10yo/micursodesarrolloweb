@@ -1,9 +1,0 @@
-/*grids*/
-.contenedor-grid-musica{display:grid; grid-template-areas:
-    "titulo-musica titulo-musica titulo-musica titulo-musica"
-    "diva diva diva aside"
-    "divb divb divb aside";}
-.titulo-musica{grid-area: titulo-musica;}
-.diva{grid-area:diva;display: grid;grid-template-columns: 1fr 1fr 1fr;}
-.divb{grid-area: divb;display: grid;grid-template-columns: 1fr 1fr 1fr;}
-.aside{grid-area: aside;background-color:blue}
