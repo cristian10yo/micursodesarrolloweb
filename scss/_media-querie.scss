@@ -1,14 +1,6 @@
 /*MEDIA QUERIE*/
 
-                                        /*SE APLICA SOLO A LA SECCION MUSICA PORQUE TIENE BACKGROUND COLOR*/
-                                        @media screen and (max-width: 490px){
-                                                .asideindex{background-color: green;}
-                                    }
-                                                                            /*DESAPARECE  SECCIÓN ASIDE EN INDEX*/
-                                    @media screen and (max-width: 490px) and (min-height:810px){
-                                            .asideindex{display: none;}
-                                    }
-                                    
+                                  
 
                                         /*Mobile*/
                                    
