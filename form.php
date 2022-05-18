@@ -16,6 +16,6 @@ $asunto = "este mail fue enviado desde mi web";
 mail($para,$asunto, utf8_decode($mensaje));
 
 //redirigir al usuario una vez completado el form
-header("Location:exito.html")
+header("Location:exito.html");
 
 ?>

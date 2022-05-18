@@ -1,5 +1,0 @@
-CAMBIOS:
--Sección contacto agregue SASS y logré que funcionara el carrousel de imágenes que se había desactivado.
--Agregué links a videos de youtube con CARDS
--Organicé un poco mejor GIT HUB,borrando repositorio que no uso, renombrando la rama principal y colocandola como repositorio por defecto
--Subí la página al hosting (https://libreriaasimov.000webhostapp.com/index.html)
