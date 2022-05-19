@@ -2,6 +2,7 @@
 h2 {
   background-color: blue;
   color: white;
+  border-radius: 10px;
 }
 
 /*ASIDE*/
@@ -21,8 +22,10 @@ h2 {
   opacity: 1%;
 }
 
-.bgrowindex {
-  background-color: #d1d3d4;
+.informacion {
+  background-color: #f6f7f8;
+  margin-right: 5em;
+  border-radius: 3px;
 }
 
 .redes-sociales {
@@ -40,9 +43,21 @@ h2 {
 .redes-wrapper {
   background-color: #F6F7F8;
   padding: 1em;
-  inset: 1px;
   margin: 2em;
   border-radius: 5px;
+}
+
+.contenedor-bgrowindex {
+  background-color: black;
+  margin: 2em;
+}
+
+.bgrowindex {
+  background-color: #eaedf0;
+  border-radius: 10px;
+  padding: 2%;
+  display: flex;
+  justify-content: space-around;
 }
 
 h1 {
@@ -58,9 +73,37 @@ h1 {
   width: 70%;
 }
 
-.atencion-cliente {
-  color: blueviolet;
-  text-decoration: underline solid;
+.iconolocales {
+  border: solid;
+  display: inline;
+}
+
+.informacion {
+  background-color: #f6f7f8;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.col-transporte {
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 6em;
+  margin-left: 3em;
+}
+
+.col-locales {
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 6em;
+}
+
+.col-contacto {
+  background-color: white;
+  border-radius: 10px;
+}
+
+#carouselExampleCaptions {
+  margin: 1em;
 }
 
 /*formulario*/
