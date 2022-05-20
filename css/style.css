@@ -22,12 +22,6 @@ h2 {
   opacity: 1%;
 }
 
-.informacion {
-  background-color: #f6f7f8;
-  margin-right: 5em;
-  border-radius: 3px;
-}
-
 .redes-sociales {
   display: inline;
   color: black;
@@ -85,16 +79,11 @@ h1 {
 .col-envios {
   background-color: white;
   border-radius: 10px;
-  display: flexs;
-  justify-content: center;
 }
 
 .col-locales {
   background-color: white;
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .col-contacto {
@@ -180,5 +169,12 @@ h1 {
 
 /*MEDIA QUERIE*/
 /*Mobile*/
+.row-libros-arriba {
+  margin-bottom: 3em;
+}
+
+.row-peliculas-arriba {
+  margin-bottom: 3em;
+}
 
 /*# sourceMappingURL=style.css.map */
